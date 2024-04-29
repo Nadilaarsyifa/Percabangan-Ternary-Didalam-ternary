@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ternary dalam ternary</title>
+</head>
+<body>
+    <script>
+        var jwb = prompt("apakah kamu semerter awal?");
+        var jawaban = (jwb.toUpperCase() == "IYA") ? "Boleh ikut": (jwb.toUpperCase() =="TIDAK") ? (prompt
+        ("apakah kamu semester akhir?").toUpperCase() == "IYA") ? 
+        "tidak boleh ikut" : "boleh ikut" :"tidak boleh ikut";
+    
+        document.write(`anda: <b>${jawaban}</b>`);
+    </script>
+</body>
+</html>
